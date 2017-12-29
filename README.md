@@ -16,8 +16,13 @@ To `@import` your files, open the `chester.scss` file and add it like so...
  */
 
 @import "your_directory/yourFilename";  // Source File excluding .scss from filename
-@import 'chester/custom';               // Bootstrap Overrides
+@import "chester/custom";               // Bootstrap Overrides
 @import "bootstrap/bootstrap";          // Bootstrap Source Files
 ````
 
 That should be all you need to do, and from there, just compile as normal.
+
+## Copyright
+The Bootstrap source code is Copyright 2017 Twitter Inc./The Bootstrap Authors. You may use Bootstrap source code freely for any project, providing you credit Twitter/the Bootstrap Authors.
+
+Chester-le-Street ASC source code is Copyright 2016-2017 Chester-le-Street ASC. You can use our code freely for Chester-le-Street ASC projects, but must ask permission to use it for other projects. You must credit Chester-le-Street ASC when using our code in any project.
