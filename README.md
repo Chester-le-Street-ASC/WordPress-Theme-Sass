@@ -15,9 +15,9 @@ To `@import` your files, open the `chester.scss` file and add it like so...
  * Bootstrap Content Copyright Twitter Inc.
  */
 
-@import "your_directory/yourFilename";  // Source File excluding .scss from filename
 @import "chester/custom";               // Bootstrap Overrides
 @import "bootstrap/bootstrap";          // Bootstrap Source Files
+@import "your_directory/yourFilename";  // Source File excluding .scss from filename
 ````
 
 That should be all you need to do, and from there, just compile as normal.
