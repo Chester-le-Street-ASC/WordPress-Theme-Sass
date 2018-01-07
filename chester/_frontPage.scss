@@ -1,0 +1,102 @@
+/* Homepage Alerts */
+
+.homepage-masthead {
+    padding: 1rem
+0 1rem 0;
+    color: #FFF;
+    overflow: hidden;
+    margin-top: -1.1rem;
+}
+.homepage-main {
+    margin-top: -1.1rem;
+}
+.homepage-masthead
+a {
+    color: #FFF;
+    text-decoration: underline;
+}
+.homepage-alert {
+    background: #333;
+}
+.main-content {
+    background: #9c0000;
+}
+.homepage-content-box {
+    background: #333;
+    color: #FFF;
+    padding: 1rem;
+    position: absolute;
+    min-height: 18em;
+}
+
+/* Frontpage CSS */
+
+.frontpage1  {
+  min-height:  calc(100vh - 3.25rem);
+  background:  rgba(0, 95, 189, 0.7),  url("https://www.chesterlestreetasc.co.uk/wp-content/themes/chester/img/stylish/frontpageheaderfsbw.jpg") no-repeat fixed center;
+  /* fallback for old browsers */
+  background:   -webkit-linear-gradient(to left,  rgba(0, 95, 189, 0.7),  rgba(0, 95, 189, 0.7)),  url("https://www.chesterlestreetasc.co.uk/wp-content/themes/chester/img/stylish/frontpageheaderfsbw.jpg") no-repeat fixed center;
+  /* Chrome 10-25,  Safari 5.1-6 */
+  background:  -webkit-linear-gradient(right,  rgba(0, 95, 189, 0.7),  rgba(0, 95, 189, 0.7)),  url("https://www.chesterlestreetasc.co.uk/wp-content/themes/chester/img/stylish/frontpageheaderfsbw.jpg") no-repeat fixed center;
+  background:  -webkit-gradient(linear,  right top, left top,  from(rgba(0, 95, 189, 0.7)),  to(rgba(0, 95, 189, 0.8))),  url("https://www.chesterlestreetasc.co.uk/wp-content/themes/chester/img/stylish/frontpageheaderfsbw.jpg") no-repeat fixed center;
+  background:  -webkit-linear-gradient(right,  rgba(0, 95, 189, 0.7),  rgba(0, 95, 189, 0.8)),  url("https://www.chesterlestreetasc.co.uk/wp-content/themes/chester/img/stylish/frontpageheaderfsbw.jpg") no-repeat fixed center;
+  background:  -o-linear-gradient(right,  rgba(0, 95, 189, 0.7),  rgba(0, 95, 189, 0.8)),  url("https://www.chesterlestreetasc.co.uk/wp-content/themes/chester/img/stylish/frontpageheaderfsbw.jpg") no-repeat fixed center;
+  background:  linear-gradient(to left,  rgba(0, 95, 189, 0.7),  rgba(0, 95, 189, 0.8)),  url("https://www.chesterlestreetasc.co.uk/wp-content/themes/chester/img/stylish/frontpageheaderfsbw.jpg") no-repeat fixed center;
+  /* W3C,  IE 10+/ Edge,  Firefox 16+,  Chrome 26+,  Opera 12+,  Safari 7+ */
+  backdrop-filter: blur(5px);
+  background-position:  center center;
+  background-attachment:  scroll;
+  background-size:  cover;
+  background-repeat:  repeat-y;
+  overflow-y:  hidden;
+}
+.front-page-drop-shadow {
+  text-shadow: 1px 1px 3px rgba(0,0,0,.45);
+}
+.frontpage-purple  {
+  position:  relative;
+  width:  100%;
+  overflow-y:  hidden;
+  background:  #00458a;
+  /* fallback for old browsers #7b4397; */
+  background:  #00458a;
+  /* Chrome 10-25,  Safari 5.1-6 */
+  background:  #00458a;
+  /* W3C,  IE 10+/ Edge,  Firefox 16+,  Chrome 26+,  Opera 12+,  Safari 7+ */
+}
+.frontpage-blue  {
+  position:  relative;
+  width:  100%;
+  overflow-y:  hidden;
+  background:  #005fbd;
+  /* fallback for old browsers */
+  background:  #005fbd;
+  /* Chrome 10-25,  Safari 5.1-6 */
+  background:  /* url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"), */ -webkit-gradient(linear,  right top, left top,  from(#005fbd),  to(#005fbd));
+  background:  /* url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"), */ -webkit-linear-gradient(right,  #005fbd,  #005fbd);
+  background:  /* url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"), */ -o-linear-gradient(right,  #005fbd,  #005fbd);
+  background:  /* url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"), */ linear-gradient(to left,  #005fbd,  #005fbd);
+  /* W3C,  IE 10+/ Edge,  Firefox 16+,  Chrome 26+,  Opera 12+,  Safari 7+ */
+}
+.header-content {
+    padding: 3rem 0;
+}
+.frontpage-link {
+    text-decoration: underline;
+	color:#ffffff;
+}
+.frontpage-link:hover {
+    text-decoration: underline;
+	color:#ffffff;
+}
+.header-content-inner {
+    color: #FFF;
+}
+.header-content-inner .lead {
+	font-weight: 400;
+}
+.header-content .cell {
+    background: rgba(51,  51,  51,  0.5);
+    color: #FFFFFF;
+	padding: 1rem;
+}

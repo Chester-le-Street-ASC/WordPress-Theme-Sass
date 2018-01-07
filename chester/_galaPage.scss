@@ -1,0 +1,18 @@
+
+/* Flagship Content - Covers /galahome pages */
+
+.flagship-content {
+    padding: 48px 0;
+    color: #FFF;
+    background-color: #303030;
+    background-image: url(./img/stylish/poolWaterBG.jpg);
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-repeat: repeat-y;
+}
+.list-group-flagship-content {
+    margin: 0;
+}
+.list-group-flagship-content a.list-group-item:focus, .list-group-flagship-content a.list-group-item:hover {
+    background-color: #005fbd;
+}
