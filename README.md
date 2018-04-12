@@ -17,7 +17,6 @@ sass chester.scss:callItWhatYouWant.css
 ```
 and Sass will build `callItWhatYouWant.css` and `callItWhatYouWant.css.map`. Copy the `*.css` and `*.css.map` to your CSS directory. When you're ready for use in a production environment, use Autoprefixer to prefix the CSS and at this point we will stop using this `*.css.map` file.
 
-## Usage
 You can either just compile the Global CSS as is, or can include and use your own files for compilation. This will allow you to make use of mixins.
 
 To `@import` your files, open the `chester.scss` file and add it like so...
