@@ -3,6 +3,20 @@ This is the SASS CSS repository for Chester-le-Street ASC's Global Styles. [Usin
 
 We use [the Bootstrap framework](http://getbootstrap.com/) for our work because it provides a solid foundation for our responsive web design, and means bugs will be dealt with by the wider community.
 
+## Using our Sass CSS
+We're using [the Bootstrap framework](https://www.getbootstrap.com) in this project to deal with all the CSS that is not a top priority for us. It also provides with a fully responsive site, straight out of the box.
+
+To install Sass on your system, which is needed to build (compile) the CSS from source, run
+```
+gem install sass
+```
+
+When you have made a change, run
+```
+sass chester.scss:callItWhatYouWant.css
+```
+and Sass will build `callItWhatYouWant.css` and `callItWhatYouWant.css.map`. Copy the `*.css` and `*.css.map` to your CSS directory. When you're ready for use in a production environment, use Autoprefixer to prefix the CSS and at this point we will stop using this `*.css.map` file.
+
 ## Usage
 You can either just compile the Global CSS as is, or can include and use your own files for compilation. This will allow you to make use of mixins.
 
