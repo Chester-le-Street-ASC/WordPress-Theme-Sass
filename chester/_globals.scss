@@ -339,3 +339,13 @@ a {
 .bg-teal {
   background: $teal;
 }
+
+.rsswidget {
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+.rsswidget ul {
+  list-style: none;
+  margin: 0;
+}
