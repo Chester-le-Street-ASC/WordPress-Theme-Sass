@@ -357,3 +357,13 @@ a {
   list-style: none;
   margin: 0;
 }
+
+.page-template-page_servicestoclubs {
+  a {
+    color: $secondary;
+  }
+
+  a:hover, a:active, a:focus {
+    color: darken($secondary, 10%);
+  }
+}
