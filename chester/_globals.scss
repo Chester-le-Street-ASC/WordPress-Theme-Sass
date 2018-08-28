@@ -361,9 +361,23 @@ a {
 .page-template-page_servicestoclubs {
   a {
     color: $secondary;
+    @include hover {
+      color: darken($secondary, 10%);
+      text-decoration: $link-hover-decoration;
+    }
   }
 
-  a:hover, a:active, a:focus {
+  a:active, a:focus {
     color: darken($secondary, 10%);
   }
+}
+
+.burnsheader {
+  background:#0288d1;
+  color:#fff;
+  padding:1rem
+}
+
+.serif h1, .serif h2, .serif h3, .serif h4, .serif h5, .serif h6, .serif p, .serif ul, .serif ol, blockquote {
+  font-family: 'Merriweather', Georgia, serif
 }

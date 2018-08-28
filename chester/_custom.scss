@@ -93,6 +93,7 @@ $component-active-bg:         $primary;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
+$enable-caret:              true;
 $enable-rounded:            false;
 $enable-shadows:            false;
 $enable-gradients:          false;
