@@ -1,0 +1,27 @@
+.collapse.show {
+  max-height: none;
+}
+
+.hide-a-underline a:hover {
+  text-decoration: none;
+}
+
+.top-bar a {
+  margin: -0.5rem inherit;
+  padding: 0.5rem 0;
+}
+
+.nav-link {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@include media-breakpoint-up(lg) {
+	.navbar:first-child ul {
+	  margin-left: -0.5rem;
+	}
+
+	.navbar:last-child ul {
+	  margin-right: -0.5rem;
+	}
+}
