@@ -64,8 +64,30 @@
 	.chart {
 		max-width: 100%;
 	}
-	#cookie-law {
-		margin: -1rem 0 1rem 0;
-	}
 
+}
+
+.ajaxPlaceholder {
+  background: #eee;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+@media print {
+  .container {
+    width: 100% !important;
+    margin: 0px auto;
+    padding: 0;
+  }
+  body, html {
+    background-color: #ffffff;
+  }
+}
+
+.badge {
+  font-family: "Helvetica", "Helvetica Neue", "Arial", "Roboto", san-serif;
+}
+.table-nomargin {
+  margin: 0 -1rem -1rem -1rem;
+  width: auto !important;
 }
