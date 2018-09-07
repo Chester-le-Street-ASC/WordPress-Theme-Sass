@@ -25,3 +25,18 @@
 	  margin-right: -0.5rem;
 	}
 }
+
+.bg-primary-darker {
+  background: darken($primary, 5%);
+}
+
+.bg-primary-dark {
+  background: darken(darken($primary, 5%), 5%);
+}
+
+/*
+Red BG Search Form
+*/
+.bg-primary::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}

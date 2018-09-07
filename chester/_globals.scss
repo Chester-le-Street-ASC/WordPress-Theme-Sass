@@ -256,7 +256,7 @@ h3#reply-title {
     background-size: contain;
 }
 .logowhite {
-  max-width: 445px;
+  max-width: 330px;
 	display: block;
   background: url(https://www.chesterlestreetasc.co.uk/wp-content/themes/chester/img/chesterLogoAMP.svg) left center no-repeat;
   height: 50px;
@@ -382,13 +382,6 @@ Burns Colours
   color: #0288d1;
 }
 
-/*
-Red BG Search Form
-*/
-.bg-primary::placeholder {
-  color: rgba(255, 255, 255, 0.75);
-}
-
 .rss-widget-icon {
   display: none;
 }
@@ -406,4 +399,10 @@ thead {
   position: -o-sticky !important;
   position: sticky !important;
   top: 0 !important;
+  z-index: 990;
+}
+
+.widget ul {
+  list-style: none;
+  margin: 0;
 }
