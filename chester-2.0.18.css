@@ -7760,6 +7760,11 @@ thead {
   padding: 1.4rem 00 0;
   margin: 1rem 0 0; }
 
+.cls-global-footer-legal {
+  padding: 1rem 0;
+  background: #222;
+  color: #fff; }
+
 /* Cookie Notice CSS */
 #cookie-law {
   background: #333;
