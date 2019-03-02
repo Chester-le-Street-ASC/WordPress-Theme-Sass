@@ -323,7 +323,8 @@ a {
 .cell, .well {
   border: none;
   margin: 0 0 1rem 0;
-	padding: 1rem;
+  padding: 1rem;
+  @include border-radius($alert-border-radius);
 }
 
 .cell p:last-child, .well p:last-child {

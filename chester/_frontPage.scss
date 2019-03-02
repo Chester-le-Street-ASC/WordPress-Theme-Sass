@@ -30,6 +30,7 @@
     background: #fff;
     padding: 1rem;
     color: $body-color;
+    @include border-radius($alert-border-radius);
     align-content: space-between;
   }
 
