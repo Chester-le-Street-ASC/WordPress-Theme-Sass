@@ -4,6 +4,11 @@
 //
 // Generate contextual modifier classes for colorizing the alert.
 
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .post img, .wp-caption img, img {
     height: auto;
     max-width: 100%
@@ -410,4 +415,10 @@ thead {
 .widget ul {
   list-style: none;
   margin: 0;
+}
+
+.live {
+  margin: 0.25rem 0.3rem 0 0;
+  color: red;
+  animation: spinner-grow 1s cubic-bezier(.77,0,.18,1) infinite;
 }

@@ -1,11 +1,12 @@
 /*!
  * Chester-le-Street ASC CSS
- * Copyright Chester-le-Street ASC
- * Bootstrap Content Copyright Twitter Inc.
+ * Copyright Chester-le-Street ASC and Christopher Heppell
  */
 
-//@import 'chester/custom';       // Bootstrap Overrides
-@import 'chester/genericCustom';       // Bootstrap Overrides
+/* autoprefixer grid: autoplace */
+
+@import 'chester/custom';       // Bootstrap Overrides
+//@import 'chester/genericCustom';       // Bootstrap Overrides
 
 // Required
 @import "bootstrap/functions";
@@ -43,10 +44,12 @@
 @import "bootstrap/list-group";
 @import "bootstrap/close";
 @import "bootstrap/modal";
+@import "bootstrap/spinners";
 @import "bootstrap/tooltip";
 @import "bootstrap/popover";
 //@import "bootstrap/carousel";
 @import "bootstrap/utilities";
 @import "bootstrap/print";
+
 
 @import "chester/chester";  // Bootstrap Source Files

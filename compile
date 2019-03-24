@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Welcome to the Chester-le-Street ASC Sassy CSS Build System"
+echo ""
+
+filename=$1
+output=$2
+
+echo "Working..."
+
+sass $filename:$output.css
+autoprefixer-cli -o $output-prefixed.css $output.css -b "> 1%"
+
+echo "Done"
+echo "Compiled to support browsers with usage > 1%"
