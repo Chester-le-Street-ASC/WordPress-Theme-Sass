@@ -7169,18 +7169,6 @@ body {
   display: flex;
   flex: 2; }
 
-.marginTop {
-  margin-top: 1rem; }
-
-.marginBottom {
-  margin-bottom: 1rem; }
-
-.m-b-0 {
-  margin-bottom: 0; }
-
-.m-t-0 {
-  margin-top: 0; }
-
 .post img {
   border: none !important; }
 
@@ -7254,7 +7242,7 @@ span.says {
   margin: 0 0 1em;
   display: block; }
 
-h3#reply-title {
+h3 #reply-title {
   margin-top: 1em; }
 
 .comment-form textarea, input#author, input#email, input#url {
@@ -7269,17 +7257,14 @@ h3#reply-title {
   max-width: 100%; }
 
 .comment-form label {
-  font-size: 13px; }
+  font-size: 0.75rem; }
 
 .blog-description {
-  font-size: 1.5 rem;
+  font-size: 1.5rem;
   font-weight: bold; }
 
-.search10 {
-  margin-top: 10px; }
-
 .sponsor {
-  padding: 0 0 1.4rem 0; }
+  margin: 0 0 1.4rem 0; }
 
 .img-center {
   margin: 0 auto; }
@@ -7355,11 +7340,13 @@ h3#reply-title {
   transform: translate(-50%, -50%); }
 
 .topimage-text-large {
-  font-size: 100px !important; }
+  font-size: 5rem !important; }
 
 .tweet-embed {
   margin: 0 -10px -1rem -10px;
-  width: auto !important; }
+  width: auto !important;
+  max-width: 100%;
+  overflow-x: hidden; }
 
 @media print {
   .sharedaddy {
@@ -7462,21 +7449,28 @@ thead {
   animation: spinner-grow 1s cubic-bezier(0.77, 0, 0.18, 1) infinite; }
 
 .panel {
-  padding: 16px 32px;
+  padding: 1rem 2rem;
   padding-top: 0;
   font-size: 1.25rem; }
 
 .panel-title {
   font-size: 1.5rem;
-  line-height: 1.4;
   background-color: #bd0000;
   color: #ffffff;
   display: inline-block;
-  margin: 0 -32px 8px;
-  margin-top: 0px;
-  padding: 8px 32px;
+  margin: 0 -2rem 0.5rem;
+  margin-top: 0;
+  padding: 0.5rem 2rem;
   position: relative;
-  top: -16px; }
+  top: -1rem; }
+
+.auto-grow {
+  resize: none;
+  width: 100%;
+  min-height: 100px;
+  padding: 1rem;
+  overflow: hidden;
+  box-sizing: border-box; }
 
 /* Bootstrap 4 and Navwalker Dropdown Fixes */
 .navbar-nav .active > .dropdown-item {
@@ -8285,4 +8279,4 @@ Red BG Search Form
 .bg-primary::placeholder {
   color: rgba(255, 255, 255, 0.75); }
 
-/*# sourceMappingURL=chester-2.1.6-prefixed.css.map */
+/*# sourceMappingURL=chester-2.1.8-prefixed.css.map */
